@@ -322,7 +322,6 @@ class _HomeState extends State<Home> {
   Widget _submitButton(BuildContext context) {
     return InkWell(
       onTap: () {
-        _bloc.add(GetData());
       },
       child: Container(
         height: 50.0,
